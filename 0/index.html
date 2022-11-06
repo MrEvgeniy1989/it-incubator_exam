@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Exam 0</title>
-</head>
-<body>
+<script>
+    function removeWhitespaces(string) {
+        return string.split(' ').filter(s => s !== '').join('_')
+    }
 
-</body>
-</html>
+    console.log(removeWhitespaces('you are JS developer'))
+</script>
